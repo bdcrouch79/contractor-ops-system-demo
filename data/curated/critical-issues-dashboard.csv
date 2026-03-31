@@ -1,0 +1,6 @@
+IssueID,ProjectID,IssueType,Severity,AssignedTo,DaysOpen,EscalationNote
+FI-305,IR-103,Safety,Critical,Aaron Pike,27,Temporary egress conflict requires continued district coordination
+FI-304,IR-102,Schedule,Major,Tyler Boone,20,Startup sequence delay is affecting turnover confidence
+FI-315,IR-107,Service Coordination,Major,Jordan Hayes,26,Program routing issue is creating recurring service strain
+FI-309,IR-104,Vendor,Moderate,Olivia Chen,29,Storefront correction delays are holding closeout items open
+FI-324,IR-105,Material,Major,Noah Whitaker,11,Replacement sensor package still incomplete

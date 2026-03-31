@@ -1,0 +1,21 @@
+ItemID,ProjectID,Category,ResponsibleParty,DueDate,Status,DaysOverdue
+CO-401,IR-101,As-Builts,Lena Brooks,2026-04-12,In Progress,0
+CO-402,IR-101,Training,Aaron Pike,2026-04-18,Open,0
+CO-403,IR-102,O and M Manuals,Lena Brooks,2026-04-05,In Progress,0
+CO-404,IR-102,Punch Completion,Julia Mays,2026-04-09,Open,0
+CO-405,IR-103,Permit Signoff,Tyler Boone,2026-08-10,Open,0
+CO-406,IR-104,Final Punch,Megan Foster,2026-03-12,Overdue,19
+CO-407,IR-104,Warranty Letter,Lena Brooks,2026-03-20,In Progress,11
+CO-408,IR-104,Owner Training,Julia Mays,2026-03-16,Waiting on Vendor,15
+CO-409,IR-105,Equipment Startup,Aaron Pike,2026-08-22,Open,0
+CO-410,IR-105,Spare Parts Turnover,Matt Grayson,2026-08-28,Open,0
+CO-411,IR-106,As-Builts,Lena Brooks,2026-03-28,In Progress,3
+CO-412,IR-106,Training Signoff,Jordan Hayes,2026-03-25,Overdue,6
+CO-413,IR-106,Final Waivers,Monica Reeves,2026-04-02,Open,0
+CO-414,IR-107,Program SOP Binder,Olivia Chen,2026-05-14,Open,0
+CO-415,IR-107,Site Contact Matrix,Jordan Hayes,2026-04-15,In Progress,0
+CO-416,IR-108,Furniture Install Closeout,Olivia Chen,2026-05-30,Open,0
+CO-417,IR-108,IT Cutover Signoff,Rachel Holloway,2026-06-20,Open,0
+CO-418,IR-104,Attic Stock List,Megan Foster,2026-03-14,Overdue,17
+CO-419,IR-106,Client Punch Verification,Julia Mays,2026-03-29,Overdue,2
+CO-420,IR-101,Commissioning Log,Aaron Pike,2026-04-20,Open,0

@@ -1,0 +1,8 @@
+Severity,AgingBucket,IssueCount
+Minor,0-7 Days,2
+Minor,8-14 Days,3
+Moderate,8-14 Days,7
+Moderate,15+ Days,5
+Major,8-14 Days,4
+Major,15+ Days,4
+Critical,15+ Days,1

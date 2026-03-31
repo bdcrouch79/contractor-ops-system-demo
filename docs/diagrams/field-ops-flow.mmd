@@ -1,0 +1,8 @@
+flowchart LR
+    A[Issue Capture] --> B[Assignment]
+    B --> C[Work In Progress]
+    C --> D{Aging Or Severe}
+    D -->|Yes| E[Escalation]
+    D -->|No| F[Resolution]
+    E --> F
+    F --> G[Closeout Linkage]

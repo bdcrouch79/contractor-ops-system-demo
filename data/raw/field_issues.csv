@@ -1,0 +1,27 @@
+IssueID,ProjectID,IssueType,Description,ReportedBy,AssignedTo,Severity,DateOpened,DueDate,ResolutionStatus
+FI-301,IR-101,Quality,Exam room millwork reveal is outside finish tolerance,Aaron Pike,Matt Grayson,Moderate,2026-03-03,2026-03-21,In Progress
+FI-302,IR-101,Material,Door frame package missing two labeled openings,Julia Mays,Noah Whitaker,Moderate,2026-03-05,2026-03-27,Waiting on Vendor
+FI-303,IR-102,Coordination,IT device list changed after rough-in release,Megan Foster,Noah Whitaker,Major,2026-03-09,2026-03-25,In Progress
+FI-304,IR-102,Schedule,Dock equipment startup pushed beyond planned turnover,Julia Mays,Tyler Boone,Major,2026-03-11,2026-03-28,Escalated
+FI-305,IR-103,Safety,Temporary egress route conflicts with active classroom entry,Chris Dalton,Aaron Pike,Critical,2026-03-04,2026-03-12,Escalated
+FI-306,IR-103,Coordination,Owner review comments added late to corridor finish package,Tyler Boone,Matt Grayson,Moderate,2026-03-07,2026-03-24,In Progress
+FI-307,IR-103,Material,RTU curb adapter lead time exceeds original buyout assumption,Aaron Pike,Noah Whitaker,Major,2026-03-10,2026-03-29,Waiting on Vendor
+FI-308,IR-104,Punch / Closeout,Punch list item 17 still open in entry vestibule,Megan Foster,Julia Mays,Minor,2026-03-01,2026-03-15,In Progress
+FI-309,IR-104,Vendor,Storefront correction crew rescheduled twice,Megan Foster,Olivia Chen,Moderate,2026-03-02,2026-03-18,Escalated
+FI-310,IR-105,Schedule,Steel delivery sequence no longer matches slab pour plan,Aaron Pike,Tyler Boone,Major,2026-03-06,2026-03-22,In Progress
+FI-311,IR-105,Site Access,Client restricted weekend access for dock tie-in work,Tyler Boone,Matt Grayson,Moderate,2026-03-08,2026-03-26,Open
+FI-312,IR-105,Quality,Joint sealant mockup rejected at west elevation,Chris Dalton,Aaron Pike,Moderate,2026-03-13,2026-03-31,In Progress
+FI-313,IR-106,Punch / Closeout,Training sign-off still pending for conference AV controls,Jordan Hayes,Olivia Chen,Minor,2026-03-12,2026-03-20,Open
+FI-314,IR-106,Vendor,Glass replacement panel slipped to next fabrication run,Jordan Hayes,Lena Brooks,Moderate,2026-03-14,2026-03-29,Waiting on Vendor
+FI-315,IR-107,Service Coordination,Recurring work order volume exceeds current tech routing plan,Caleb Dyer,Jordan Hayes,Major,2026-03-05,2026-03-19,Escalated
+FI-316,IR-107,Material,Generator transfer switch part backordered,Derek Shaw,Noah Whitaker,Major,2026-03-09,2026-03-30,Waiting on Vendor
+FI-317,IR-107,Site Access,After-hours access list not updated for new technician,Brooke Allen,Olivia Chen,Minor,2026-03-15,2026-03-22,Resolved
+FI-318,IR-108,Coordination,Operations refresh phasing conflicts with finance close window,Olivia Chen,Rachel Holloway,Moderate,2026-03-11,2026-03-27,In Progress
+FI-319,IR-108,Quality,Training room cabinet layout differs from approved sketch,Olivia Chen,Matt Grayson,Minor,2026-03-16,2026-03-28,Open
+FI-320,IR-101,Schedule,Plumbing trim sequence impacted by inspection delay,Aaron Pike,Tyler Boone,Moderate,2026-03-17,2026-04-02,Open
+FI-321,IR-102,Vendor,Loading dock striping subcontractor has not confirmed mobilization,Megan Foster,Noah Whitaker,Minor,2026-03-18,2026-04-01,Open
+FI-322,IR-103,Quality,Classroom casework punch exceeds expected completion pace,Aaron Pike,Matt Grayson,Moderate,2026-03-19,2026-04-03,In Progress
+FI-323,IR-104,Punch / Closeout,O and M binder still missing rooftop unit startup sheets,Lena Brooks,Megan Foster,Moderate,2026-03-09,2026-03-20,Open
+FI-324,IR-105,Material,Overhead door sensors shipped incomplete,Aaron Pike,Noah Whitaker,Major,2026-03-20,2026-04-04,Open
+FI-325,IR-106,Coordination,Client furniture vendor needs revised punch access window,Jordan Hayes,Olivia Chen,Minor,2026-03-21,2026-03-31,In Progress
+FI-326,IR-108,Site Access,Weekend shutdown request still awaiting building approval,Olivia Chen,Rachel Holloway,Moderate,2026-03-24,2026-04-05,Open

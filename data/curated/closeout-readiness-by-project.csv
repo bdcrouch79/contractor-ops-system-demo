@@ -1,0 +1,9 @@
+ProjectID,ProjectName,OpenCloseoutItems,OverdueCloseoutItems,OpenPunchIssues,ReadinessStatus
+IR-104,Glenpark Retail Interior Refresh,4,3,2,At Risk
+IR-106,Brookstone Office Suite Modernization,4,2,2,Watch
+IR-101,Northgate Medical Office Renovation,3,0,1,Watch
+IR-102,Summit Logistics Tenant Buildout,2,0,0,Healthy
+IR-105,Westfield Distribution Dock Expansion,2,0,0,Healthy
+IR-107,Cedar Hill Service Response Program,2,0,0,Healthy
+IR-108,IronRidge HQ Operations Refresh,2,0,0,Watch
+IR-103,Riverside Schools Facility Upgrade,1,0,0,Watch

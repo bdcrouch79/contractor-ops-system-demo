@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IronRidge Field Operations Tracker</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="hero">
+      <div class="hero-main">
+        <img class="wordmark" src="../../assets/ironridge-wordmark.svg" alt="IronRidge Contractors" />
+        <p class="eyebrow">Field Operations Layer</p>
+        <h1>Field Operations Tracker</h1>
+        <p class="subhead">A contractor-centered operating screen for issue aging, escalation, punch work, and closeout readiness across active projects.</p>
+      </div>
+      <div class="hero-meta">
+        <div class="meta-label">Field Snapshot</div>
+        <div class="meta-value">23 Open Issues</div>
+        <div class="meta-note">Severity, ownership, and closeout linkage reviewed weekly</div>
+      </div>
+    </header>
+
+    <section class="panel toolbar">
+      <label for="project-select">Project Focus</label>
+      <select id="project-select">
+        <option>All Active Projects</option>
+        <option>IR-103 | Riverside Schools Facility Upgrade</option>
+        <option>IR-104 | Glenpark Retail Interior Refresh</option>
+        <option>IR-105 | Westfield Distribution Dock Expansion</option>
+      </select>
+      <div class="toolbar-note">Default view highlights the highest-attention conditions across the portfolio.</div>
+    </section>
+
+    <section class="card-grid" id="summary-cards"></section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <div>
+          <h2>Open Issues</h2>
+          <p>Current field and closeout exceptions requiring active ownership.</p>
+        </div>
+        <div class="panel-chip">Severity reviewed alongside due date and resolution status</div>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Issue</th>
+            <th>Project</th>
+            <th>Severity</th>
+            <th>Owner</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="issue-rows"></tbody>
+      </table>
+    </section>
+
+    <section class="two-up">
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <h2>Closeout Readiness</h2>
+            <p>Where turnover work still needs attention.</p>
+          </div>
+        </div>
+        <div id="closeout-readiness" class="stack"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <h2>Escalated Conditions</h2>
+            <p>Issues requiring closer operational oversight.</p>
+          </div>
+        </div>
+        <div id="escalated" class="stack"></div>
+      </div>
+    </section>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
