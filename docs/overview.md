@@ -4,9 +4,9 @@
 
 IronRidge Field Operations Tracker
 
-## What This Repo Demonstrates
+## What It Shows
 
-This repository shows how IronRidge could use a practical contractor-centered operating screen to manage issue aging, escalation, and closeout readiness with better alignment between the field and the office.
+This repo shows how IronRidge could use a practical, field-aware operating screen to manage issue aging, escalation, and closeout readiness with better alignment between the field and the office.
 
 ## Primary Audience
 

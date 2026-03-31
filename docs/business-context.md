@@ -11,4 +11,4 @@ IronRidge field teams often see risk before formal office systems do. When issue
 
 ## Why Teams Care
 
-Field-aware visibility helps both the office and the field understand what is open right now, who owns the next move, which issues are severe, and where closeout readiness is slipping.
+Field-aware visibility helps both the office and the field understand what is open right now, who owns the next move, which issues are severe, and where closeout readiness is starting to slip.

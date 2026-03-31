@@ -1,6 +1,6 @@
 # Screenshots
 
-Capture the following screenshots for portfolio use:
+Capture these views:
 
 - full field operations overview with issue table and summary cards visible
 - open issues table showing severity and ownership clearly

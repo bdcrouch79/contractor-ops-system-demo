@@ -1,7 +1,7 @@
 const cards = [
   { label: "Open Issues", value: "23", note: "Resolved records excluded from the current field view." },
   { label: "Major Or Critical", value: "9", note: "Highest-attention issues across active and closeout-stage work." },
-  { label: "Overdue Closeout Items", value: "6", note: "Mainly Glenpark and Brookstone turnover pressure." },
+  { label: "Overdue Closeout Items", value: "6", note: "Most of the turnover pressure sits in Glenpark and Brookstone." },
   { label: "Projects On Watch", value: "4", note: "Field and closeout conditions still need close management." }
 ];
 
@@ -16,13 +16,13 @@ const issues = [
 const readiness = [
   { title: "Glenpark Retail Interior Refresh", meta: "4 open closeout items | 3 overdue | readiness at risk" },
   { title: "Brookstone Office Suite Modernization", meta: "4 open closeout items | 2 overdue | turnover still on watch" },
-  { title: "Northgate Medical Office Renovation", meta: "3 planned closeout items | no overdue tasks yet" }
+  { title: "Northgate Medical Office Renovation", meta: "3 planned closeout items | nothing overdue yet" }
 ];
 
 const escalated = [
   { title: "Riverside Schools Facility Upgrade", meta: "Safety route conflict remains the top escalation." },
   { title: "Cedar Hill Service Response Program", meta: "Routing strain and part backlog are affecting stability." },
-  { title: "Westfield Distribution Dock Expansion", meta: "Material and access issues still need close coordination." }
+  { title: "Westfield Distribution Dock Expansion", meta: "Material and access issues still need tight coordination." }
 ];
 
 document.getElementById("summary-cards").innerHTML = cards.map((item) => `

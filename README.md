@@ -2,15 +2,17 @@
 
 ## Overview
 
-IronRidge Field Operations Tracker shows how IronRidge Contractors could use a more field-aware internal system to manage issue severity, job-level exceptions, punch work, and closeout readiness across active and closing projects.
+This repo shows what a more field-aware internal system can look like inside a contractor environment.
+
+The IronRidge Field Operations Tracker is built around issue severity, job-level exceptions, punch work, and closeout readiness across active and closing projects. It is meant to feel like something superintendents, PMs, and operations leads would recognize.
 
 ## Business Problem
 
-Field issues, punch items, closeout dependencies, and job exceptions are often tracked across PM notes, email chains, spreadsheets, and individual follow-up habits. That makes it harder for field teams and office teams to share the same operating picture.
+Field issues, punch items, closeout dependencies, and job exceptions often live across PM notes, email chains, spreadsheets, and whoever happens to be carrying the follow-up. That makes it harder for the field and the office to see the same picture at the same time.
 
-## Solution Concept
+## What This Repo Adds
 
-This repo models a practical contractor-centered tracking layer with shared issue and closeout data, concise lifecycle documentation, and a static internal-tooling mock. The focus is visibility into what is open, what is aging, what is severe, and what is holding closeout back.
+This repo models a contractor-centered tracking layer with shared issue and closeout data, concise lifecycle documentation, and a static internal-tooling mock. The focus is what is open, what is aging, what is severe, and what is holding closeout back.
 
 ## Ecosystem Context
 
@@ -30,7 +32,7 @@ This repo represents the field-aware operating layer within the broader IronRidg
 
 The raw layer focuses on issue type, severity, ownership, due dates, resolution status, and closeout dependency. Curated outputs condense that information into the kinds of views a superintendent, operations manager, or PM would use to understand current field exposure.
 
-## Mock Experience / Screenshots
+## Mock Experience
 
 The mock tracker emphasizes open issues, severity visibility, escalated conditions, and closeout readiness in a format that feels like an internal contractor operations screen rather than a generic template.
 
@@ -43,4 +45,4 @@ The mock tracker emphasizes open issues, severity visibility, escalated conditio
 
 ## Fictional Demo Notice
 
-This repository is part of a fictional demonstration environment built around IronRidge Contractors, a sample contractor-focused operating company created to showcase reporting, workflow, execution, and operations system design. Names, data, and scenarios are illustrative, but the business patterns reflect real-world operational needs.
+This repository is part of a fictional IronRidge Contractors environment built to show reporting, workflow, execution, and field operations design. The names and records are made up. The day-to-day contractor friction is not.
