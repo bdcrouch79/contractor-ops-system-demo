@@ -14,6 +14,14 @@ Field issues, punch items, closeout dependencies, and job exceptions often live 
 
 This repo models a contractor-centered tracking layer with shared issue and closeout data, concise lifecycle documentation, and a static internal-tooling mock. The focus is what is open, what is aging, what is severe, and what is holding closeout back.
 
+## Screenshots
+
+### Overview
+![Field Operations Tracker Overview](docs/screenshots/hero-overview.png)
+
+### Detail View
+![Field Operations Tracker Detail](docs/screenshots/detail-view.png)
+
 ## Ecosystem Context
 
 This repo represents the field-aware operating layer within the broader IronRidge demo ecosystem. It provides the issue and closeout detail that can trigger support requests in `workflow-drag-reduction-demo`, create follow-through items in `execution-infrastructure-demo`, and feed risk or readiness signals into `ops-visibility-demo`.
