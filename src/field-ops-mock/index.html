@@ -13,69 +13,82 @@
         <img class="wordmark" src="../../assets/ironridge-wordmark.svg" alt="IronRidge Contractors" />
         <p class="eyebrow">Field Operations Layer</p>
         <h1>Field Operations Tracker</h1>
-        <p class="subhead">A field-aware operating screen for issue aging, escalation, punch work, and closeout readiness across active projects.</p>
+        <p class="subhead">A field-aware control screen for issue aging, escalation, punch work, and closeout readiness across active projects.</p>
       </div>
-      <div class="hero-meta">
+      <aside class="hero-meta">
         <div class="meta-label">Field Snapshot</div>
         <div class="meta-value">23 Open Issues</div>
-        <div class="meta-note">Severity, ownership, and closeout linkage reviewed weekly</div>
-      </div>
+        <div class="meta-note">Severity, ownership, due pressure, and closeout linkage reviewed in one operating view.</div>
+      </aside>
     </header>
 
-    <section class="panel toolbar">
-      <label for="project-select">Project Focus</label>
-      <select id="project-select">
-        <option>All Active Projects</option>
-        <option>IR-103 | Riverside Schools Facility Upgrade</option>
-        <option>IR-104 | Glenpark Retail Interior Refresh</option>
-        <option>IR-105 | Westfield Distribution Dock Expansion</option>
-      </select>
-      <div class="toolbar-note">Default view brings the highest-attention field conditions to the top.</div>
+    <section class="control-bar panel">
+      <div class="control-group">
+        <label for="project-select">Project Focus</label>
+        <select id="project-select">
+          <option>All Active Projects</option>
+          <option>IR-103 | Riverside Schools Facility Upgrade</option>
+          <option>IR-104 | Glenpark Retail Interior Refresh</option>
+          <option>IR-105 | Westfield Distribution Dock Expansion</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <span class="control-label">Severity</span>
+        <div class="severity-legend">
+          <span class="legend-chip critical">Critical</span>
+          <span class="legend-chip major">Major</span>
+          <span class="legend-chip moderate">Moderate</span>
+        </div>
+      </div>
+      <div class="control-note">Default sort surfaces the highest-attention field conditions first.</div>
     </section>
 
-    <section class="card-grid" id="summary-cards"></section>
+    <section class="status-strip" id="summary-cards"></section>
 
-    <section class="panel">
-      <div class="panel-header">
-        <div>
-          <h2>Open Issues</h2>
-          <p>Current field and closeout exceptions that still need active ownership.</p>
-        </div>
-        <div class="panel-chip">Severity reviewed alongside due date and resolution status</div>
-      </div>
-      <table>
-        <thead>
-          <tr>
-            <th>Issue</th>
-            <th>Project</th>
-            <th>Severity</th>
-            <th>Owner</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody id="issue-rows"></tbody>
-      </table>
-    </section>
-
-    <section class="two-up">
-      <div class="panel">
+    <section class="operations-layout">
+      <section class="panel issues-panel">
         <div class="panel-header">
           <div>
-            <h2>Closeout Readiness</h2>
-            <p>Where turnover work is still exposed.</p>
+            <h2>Open Issues</h2>
+            <p>Current field and closeout exceptions that still need active ownership.</p>
           </div>
+          <div class="panel-chip">Severity reviewed with due pressure and resolution status</div>
         </div>
-        <div id="closeout-readiness" class="stack"></div>
-      </div>
-      <div class="panel">
-        <div class="panel-header">
-          <div>
-            <h2>Escalated Conditions</h2>
-            <p>Issues that need closer operational oversight.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Issue</th>
+              <th>Project</th>
+              <th>Severity</th>
+              <th>Owner</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="issue-rows"></tbody>
+        </table>
+      </section>
+
+      <aside class="ops-rail">
+        <section class="panel rugged-panel">
+          <div class="panel-header rail-header">
+            <div>
+              <h2>Escalated Conditions</h2>
+              <p>Items that need tighter operational oversight.</p>
+            </div>
           </div>
-        </div>
-        <div id="escalated" class="stack"></div>
-      </div>
+          <div id="escalated" class="stack"></div>
+        </section>
+
+        <section class="panel rugged-panel">
+          <div class="panel-header rail-header">
+            <div>
+              <h2>Closeout Readiness</h2>
+              <p>Where turnover work is still exposed.</p>
+            </div>
+          </div>
+          <div id="closeout-readiness" class="stack"></div>
+        </section>
+      </aside>
     </section>
   </div>
   <script src="./app.js"></script>

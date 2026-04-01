@@ -21,12 +21,12 @@ const readiness = [
 
 const escalated = [
   { title: "Riverside Schools Facility Upgrade", meta: "Safety route conflict remains the top escalation." },
-  { title: "Cedar Hill Service Response Program", meta: "Routing strain and part backlog are affecting stability." },
-  { title: "Westfield Distribution Dock Expansion", meta: "Material and access issues still need tight coordination." }
+  { title: "Cedar Hill Service Response Program", meta: "Routing strain and part backlog are affecting field stability." },
+  { title: "Westfield Distribution Dock Expansion", meta: "Material and access issues still need tight superintendent coordination." }
 ];
 
 document.getElementById("summary-cards").innerHTML = cards.map((item) => `
-  <article class="card">
+  <article class="status-card">
     <div class="card-label">${item.label}</div>
     <div class="card-value">${item.value}</div>
     <div class="card-note">${item.note}</div>
@@ -45,10 +45,10 @@ document.getElementById("issue-rows").innerHTML = issues.map(([issue, project, s
 
 function renderStack(id, rows) {
   document.getElementById(id).innerHTML = rows.map((row) => `
-    <div class="stack-item">
+    <article class="stack-item">
       <div class="stack-title">${row.title}</div>
       <div class="stack-meta">${row.meta}</div>
-    </div>
+    </article>
   `).join("");
 }
 
