@@ -268,10 +268,11 @@ table {
 
 th,
 td {
-  padding: 13px 10px;
+  padding: 14px 10px;
   text-align: left;
   border-bottom: 1px solid var(--line);
   font-size: 0.9rem;
+  vertical-align: middle;
 }
 
 th {
@@ -285,6 +286,16 @@ tbody tr:last-child td {
 
 tbody tr:nth-child(odd) {
   background: rgba(255, 255, 255, 0.018);
+}
+
+.row-id {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.row-description {
+  font-weight: 600;
+  line-height: 1.35;
 }
 
 .stack {
@@ -316,11 +327,26 @@ tbody tr:nth-child(odd) {
   border-radius: 999px;
   font-size: 0.78rem;
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .minor {
   background: rgba(124, 160, 180, 0.16);
   color: var(--minor);
+}
+
+.action-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid var(--line-soft);
+  background: rgba(255, 255, 255, 0.03);
+  padding: 6px 10px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text);
+  white-space: nowrap;
 }
 
 @media (max-width: 1120px) {

@@ -44,6 +44,17 @@ The raw layer focuses on issue type, severity, ownership, due dates, resolution 
 
 The mock tracker emphasizes open issues, severity visibility, escalated conditions, and closeout readiness in a format that feels like an internal contractor operations screen rather than a generic template.
 
+## Example Record Flow
+
+This repo makes the underlying field condition visible before leadership sees it in summary form.
+
+For Riverside, `FI-305` is the field-level operating truth behind `REQ-617` in `workflow-drag-reduction-demo` and `AI-502` in `execution-infrastructure-demo`.
+
+- The issue is not abstract. It is a specific temporary egress conflict with severity, ownership, and due pressure.
+- That condition later shows up in `ops-visibility-demo` as part of Riverside's at-risk leadership posture.
+
+Two additional lineage threads are now visible here as well: Glenpark closeout package gaps around `FI-323`, and Cedar Hill route strain through `FI-315`.
+
 ## Future Enhancements
 
 - add mobile-friendly issue intake concepts for field staff
